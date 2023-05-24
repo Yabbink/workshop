@@ -1,9 +1,7 @@
 <?php
 include_once "User.php";
-include_once "UserAuthenticator.php";
 session_start();
 $gebruiker = new User();
-$user = new UserAuthenticator();
 $conn = $gebruiker->db_connect();
 // Check connection
 if ($conn->connect_error) {
@@ -15,7 +13,6 @@ if(isset($_POST['login'])){
     $password = $_POST['password'];
     $sql = "SELECT * FROM users WHERE admin = 1 AND email='" . $email . "' AND password='" . $password . "'";
     $result = $conn->query($sql);
-//    $user2 = $user->authenticateUser($email,$password);
 
     if ($result->num_rows > 0) {
         //output data of each row

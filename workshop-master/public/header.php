@@ -30,7 +30,7 @@ include '../config/config.php'
 <!-- Start hero image -->
 <section class="hero">
     <div class="content">
-        <h1>Welkom bij de Voetbalkantine!</h1>
+        <h1>Welkom!</h1>
     </div>
 
 </section>
