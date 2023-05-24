@@ -19,10 +19,9 @@ include '../config/config.php'
 <nav>
         <ul class="menu">
             <li><a href="index.php">Home</a></li>
-            <li><a href="login.php">Inloggen</a></li>
+            <li><a href="inloggen.php">Inloggen</a></li>
             <li><a href="registreren.php">Registreren</a></li>
-            <li><a href="productenlijst.php">Producten</a></li>
-            <li><a href="beheer.php">Beheer</a></li>
+            <li><a href="werknemerRegistreren.php">Registreren werknemer</a></li>
         </ul>
 </nav>
 </div>
