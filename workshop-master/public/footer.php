@@ -11,10 +11,9 @@
                 <h3>Links</h3>
                 <ul class="footerMenu">
                 <li><a href="index.php">home</a></li>
-                    <li><a href="login.php">Inloggen</a></li>
+                    <li><a href="inloggen.php">Inloggen</a></li>
                     <li><a href="registreren.php">Registreren</a></li>
-                    <li><a href="productenlijst.php">Producten</a></li>
-                    <li><a href="beheer.php">Beheer</a></li>
+                    <li><a href="werknemerRegistreren.php">Registreren werknemer</a></li>
                 </ul>
             </div>
         </div>
