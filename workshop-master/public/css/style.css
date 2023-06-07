@@ -1,3 +1,69 @@
 body{
-    background-color: pink;
+    background-image: url(../images/rm222batch2-mind-03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav{
+    width: 100%;
+}
+
+nav ul.menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul.menu li{
+    margin-left: 20px;
+}
+
+nav ul.menu li a{
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+section.hero{
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+h1{
+    color: black;
+}
+
+footer{
+    width: 100%;
+    height: 200px;
+    color: blue;
+    padding: 60px 0px;
+}
+footer .container{
+    display: flex;
+    align-content: center;
+}
+
+footer .container .column{
+    margin-right: 120px;
+}
+
+footer .container .column p{
+    margin: 10px 0px;
+}
+
+footer .container .column ul{
+    padding: 0px;
+    list-style: none;
+}
+
+footer .container .column li a{
+    color: blue;
+    text-decoration: none;
+    margin: 10px 0px;
 }

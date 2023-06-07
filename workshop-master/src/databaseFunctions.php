@@ -1,4 +1,4 @@
-<?php include_once '../config/database.php'; ?>
+<?php include_once '../config/db_config.php'; ?>
 <?php
 function db_connect(){
     $mysqli = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);

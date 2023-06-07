@@ -1,3 +1,4 @@
+<?php include_once "header.php"?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,9 +14,16 @@
         <input type="text" name="voornaam"><br><br>
         Achternaam
         <input type="text" name="achternaam"><br><br>
+        email
+        <input type="text" name="email"><br><br>
+        prijs
+       <input type="text" name="prijs"><br><br>
+       opmerking
+       <input type="text" name="opmerking"><br><br>
 
         <input type="submit" name="opslaan" value="Opslaan">
         <input type="submit" name="annuleren" value="Annuleren">
     </form>
 </body>
-</html> 
+</html>
+<?php include_once "footer.php"?>

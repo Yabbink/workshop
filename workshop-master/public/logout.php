@@ -4,7 +4,7 @@ session_start();
 session_destroy();
 
 // Redirect to login page
-header("location: inloggen.php");
+header("location: login.php");
 exit;
 
 ?>

@@ -19,9 +19,11 @@ include '../config/config.php'
 <nav>
         <ul class="menu">
             <li><a href="index.php">Home</a></li>
-            <li><a href="inloggen.php">Inloggen</a></li>
+            <li><a href="login.php">Inloggen</a></li>
             <li><a href="registreren.php">Registreren</a></li>
             <li><a href="werknemerRegistreren.php">Registreren werknemer</a></li>
+            <li><a href="weergeven.php">bijhoudsysteem</a></li>
+            <li><a href="mail/sendIndex.php">Mail</a></li>
         </ul>
 </nav>
 </div>
